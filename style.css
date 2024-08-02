@@ -1,28 +1,25 @@
- @font-face {
-     font-family: "Roboto", sans-serif;
-     font-weight: 100;
-     font-style: normal;
-     src: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
- 
-}
-
- @font-face {
-     font-family: "Raleway", sans-serif;
-     font-optical-sizing: auto;
-     font-style: normal;
-     src: url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
- }
-
  :root {
      --font-family: "Roboto", sans-serif;
      --second-family: "Raleway", sans-serif;
  }
 
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+
+
+
  section h1 {
      background-color: rgba(24, 24, 91, 0.947);
  }
 
- ul {
+
+
+ul {
      list-style: none;
  }
 
@@ -47,28 +44,28 @@
      color: #757575;
  }
 
- button {
+ .small-btn {
      font-family: var(--font-family);
      font-weight: 700;
      font-size: 16px;
-     line-height: 187%;
+     line-height: 1.87;
      letter-spacing: 0.06em;
      text-align: center;
      color: #fff;
  }
 
- h1 {
+ .small-title {
      font-family: var(--font-family);
      font-weight: 900;
      font-size: 44px;
-     line-height: 136%;
+     line-height: 1.36;
      letter-spacing: 0.06em;
      text-transform: uppercase;
      text-align: center;
      color: #fff;
  }
 
- h4 {
+ .work-caption {
      font-family: var(--font-family);
      font-weight: 700;
      font-size: 14px;
@@ -77,16 +74,16 @@
      color: #212121;
  }
 
- p {
+ .work-text {
      font-family: var(--font-family);
      font-weight: 400;
      font-size: 14px;
-     line-height: 171%;
+     line-height: 1.71;
      letter-spacing: 0.03em;
      color: #757575;
  }
 
- h2 {
+ .works-heading {
      font-family: var(--font-family);
      font-weight: 700;
      font-size: 36px;
@@ -105,7 +102,7 @@
      text-align: left;
  }
 
- h6 {
+ .footer-link {
      font-family: var(--font-family);
      font-weight: 400;
      font-size: 16px;
@@ -116,24 +113,25 @@
  }
 
  footer {
-     background-color: rgb(15, 15, 75);
+     background-color: rgb(76, 76, 205);
  }
 
- footer p {
-     font-family: var(--font-family);
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 171%;
-     letter-spacing: 0.03em;
-     color: #fff;
- }
 
- footer h5 {
-     font-family: var(--font-family);
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 171%;
-     letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
-     text-align: left;
- }
+
+
+
+ .small-btn {
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    background: #2196f3;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
