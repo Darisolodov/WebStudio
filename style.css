@@ -102,25 +102,7 @@ ul {
      text-align: left;
  }
 
- .footer-link {
-     font-family: var(--font-family);
-     font-weight: 400;
-     font-size: 16px;
-     letter-spacing: 0.03em;
-     text-align: center;
-     color: #757575;
-     text-align: left;
- }
-
- footer {
-     background-color: rgb(76, 76, 205);
- }
-
-
-
-
-
- .small-btn {
+.small-btn {
     border-radius: 4px;
     width: 216px;
     height: 50px;
@@ -135,3 +117,86 @@ ul {
     border: none;
     cursor: pointer;
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-link-logo {
+    margin-right: 20px;
+  }
+  .header-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-item {
+    margin-left: 20px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .small-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .works-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .works-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .works-list-item {
+    flex-basis: 30%;
+    margin: 10px;
+  }
+  
+  .works-list-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+.footer {
+    background-color: #2171b1;
+}
+
+.footer-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left; 
+  }
+  
+  .footer-link-logo {
+    margin-bottom: 20px;
+  }
+  
+  .footer-address {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-link {
+    margin: 5px 0;
+  }
