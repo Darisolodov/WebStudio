@@ -125,6 +125,7 @@ ul {
   }
 
   .header-link-logo {
+    display: flex;
     margin-right: 20px;
   }
   .header-list {
@@ -135,6 +136,7 @@ ul {
   }
 
   .header-item {
+    display: flex;
     margin-left: 20px;
   }
 
@@ -149,10 +151,12 @@ ul {
   }
 
   .small-btn {
+    display: flex;
     padding: 10px 20px;
     font-size: 16px;
   }
   .works-heading {
+    display: flex;
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
@@ -166,6 +170,7 @@ ul {
   }
   
   .works-list-item {
+    display: flex;
     flex-basis: 30%;
     margin: 10px;
   }
@@ -189,6 +194,7 @@ ul {
   }
   
   .footer-link-logo {
+    display: flex;
     margin-bottom: 20px;
   }
   
@@ -198,5 +204,6 @@ ul {
   }
   
   .footer-link {
+    display: flex;
     margin: 5px 0;
   }
